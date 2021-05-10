@@ -55,7 +55,8 @@ function setup() {
 
 function draw() {
   background("black");
-  textSize(20)
+  textSize(20);
+  text("Press 'Space' to start",325,450);
  
   Engine.update(engine);
   ground.display();
